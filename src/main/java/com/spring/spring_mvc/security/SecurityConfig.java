@@ -136,7 +136,7 @@ public class SecurityConfig {
 
         configuration.setAllowedOrigins(
             Arrays.asList(
-                "http://localhost:3000", "http://192.168.137.215:3000"));
+                "http://localhost:3000", "http://192.168.137.215:3000", "http://localhost"));
         configuration.setAllowedMethods(
             Arrays.asList("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(
